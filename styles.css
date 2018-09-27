@@ -22,6 +22,24 @@ main {
   padding: 20px;
 }
 
+h2 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+p {
+  line-height: 22px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.text_img {
+  display: flex;
+}
+
 .cards {
   background: #eee;
   display: flex;
@@ -32,7 +50,6 @@ main {
 }
 
 .card {
-  display: block;
   box-sizing: border-box;
   background: #fff;
 
@@ -45,6 +62,7 @@ main {
 
   overflow: auto;
   word-break: break-all;
+
 
   margin-bottom: 10px;
 }

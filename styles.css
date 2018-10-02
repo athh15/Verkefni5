@@ -34,16 +34,6 @@ img {
   max-width: 150px;
 }
 
-.card__img {
-  flex-basis: 9.375em;
-  padding: 5px;
-}
-
-.card__body {
-  display: flex;
-  flex-basis: 100%;
-}
-
 .cards {
   background: #eee;
   display: flex;
@@ -73,6 +63,16 @@ img {
   word-break: break-all;
   line-height: 22px;
   font-size: 16px;
+}
+
+.card__img {
+  flex-basis: 9.375em;
+  padding: 5px;
+}
+
+.card__body {
+  display: flex;
+  flex-basis: 100%;
 }
 
 ul {

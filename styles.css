@@ -23,46 +23,67 @@ main {
 }
 
 h2 {
+  margin-top: 5px;
   font-size: 22px;
   line-height: 22px;
-}
-
-p {
-  line-height: 22px;
+  word-break: break-word;
+  margin-bottom: 10px;
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  max-width: 150px;
 }
 
-.text_img {
+.card__img {
+  flex-basis: 9.375em;
+  padding: 5px;
+}
+
+.card__body {
   display: flex;
+  flex-basis: 100%;
 }
 
 .cards {
   background: #eee;
   display: flex;
-  /* align-items: stretch; */
 
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .card {
-  box-sizing: border-box;
   background: #fff;
 
   max-width: 470px;
   max-height: 300px;
 
+  margin-bottom: 10px;
+
   border: 2px solid #aaa;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 
+  display: flex;
+  flex-direction: column;
+}
+
+.card__text {
   overflow: auto;
   word-break: break-all;
+  line-height: 22px;
+  font-size: 16px;
+}
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
 
-  margin-bottom: 10px;
+li {
+  font-weight: bold;
+  margin-right: 10px;
 }
